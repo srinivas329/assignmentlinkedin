@@ -1,0 +1,45 @@
+.login-bg{
+    background-color: milkwhite;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-label{
+    margin-top: 50px;
+}
+.form-bg{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.username-input-filed{
+    outline: none;
+    border-width: 0.5px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+.error{
+    font-size: 15px;
+    color: red;
+}
+.password-input-filed{
+    outline: none;
+    width: 250px;
+    border-width: 0.5px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.login-heading{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

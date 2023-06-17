@@ -1,0 +1,29 @@
+.ul-list{
+    padding: 0px;
+}
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.loader{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 422px) {
+    .heading{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+}
